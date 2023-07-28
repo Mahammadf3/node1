@@ -1,0 +1,39 @@
+
+POST  http://localhost:3004/book/
+Content-Type: application/json
+
+{
+    "id":8,
+    "name":"malinga",
+    "date":"2022-2-3",
+    "author":"dhoni"
+    
+}
+###
+GET http://localhost:3004/book
+
+###
+
+PUT http://localhost:3004/book/1 
+Content-Type: application/json
+
+{
+     "id":19,
+    "name":"rayudu",
+    "date":"2022-2-6",
+    "author":"ashwin"
+}
+
+###
+DELETE http://localhost:3004/book/7
+
+###
+
+GET http://localhost:3004/book?search_q=ramu&limit=1
+
+
+
+
+
+
+
